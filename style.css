@@ -1,0 +1,132 @@
+
+body{
+    display: flex;
+    height: 100lvh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    text-align: left;
+
+}
+.container{
+     display: flex;
+     flex-direction: row;
+    height: 300px;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    
+
+}
+.drawers{
+    height:300px;
+    width: 300px ;
+    border-radius: 20px 0px 0px 20px;
+}
+.content{
+    height: 300px;
+    width: 450px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    
+    
+    
+    
+}
+.attribution{
+    display: none;
+}
+.first{
+    color:hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin: 0px;
+}
+.second{
+    color: hsl(212, 23%, 69%);
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 0%;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px ;
+    width: 100%;
+    margin-top: 20px;
+    margin: 0px;
+}
+.avatar{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.name{
+    color: hsl(212, 23%, 69%);
+    font-weight: 500;
+}
+.name1{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+.share-icon-container{
+    cursor: pointer;
+    margin-left: auto;
+    padding: 8px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 15px;
+    border: none;
+    
+
+}
+.share{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height:50px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: hsl(217, 19%, 35%);
+}
+.share-title{
+    color: hsl(212, 23%, 69%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+
+}
+.triangle{
+    position: absolute;
+    top: 56.7%;
+    right: 28%;
+
+    border-top: 2vh solid hsl(217, 19%, 35%);
+    border-right: 1vw solid transparent;
+    border-left: 1vw solid transparent;
+    
+}
+.triangle {
+    display: none;
+}
+.share{
+    display: none;
+}
+.share-icon-container:hover{
+    background-color: hsl(217, 19%, 35%);
+   
+}
+.share-icon:hover{
+    filter: brightness(0) invert(1);
+}
